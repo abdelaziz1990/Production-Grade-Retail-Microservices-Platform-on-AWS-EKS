@@ -1,0 +1,18 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+crash.log
+
+# Secrets
+*.pem
+*.key
+trust-policy.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large backup archives
+*.zip
